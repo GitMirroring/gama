@@ -54,8 +54,11 @@
 @end multitable
 
 @multitable @columnfractions .07 .93
-@item [1] @tab Milos Cimbalnik - Leos Mervart: Vyssi geodezie 1, 1997, Vydavatelstvi
-CVUT, Praha
+
+@item [1] @tab Defense Mapping Agency. World Geodetic System 1984:
+Its Definition and Relationships with Local Geodetic Systems.
+Technical Report, DMA TR 8350.2. Washington, D.C.: Department of Defense,
+1984. Approved for public release; distribution unlimited.
 
 @item [2] @tab Milos Cimbalnik: Derived Geometrical Constants of the Geodetic
 Reference System 1980, Studia geoph. et geod. 35 (1991), pp. 133-144,
@@ -68,5 +71,8 @@ and Mapping and American Society for Photogrammetry and Remote Sensing
 
 @item [4] @tab Gerald Evenden: proj - forward cartographic projection filter (rel. 4.3.3),
 http://www.remotesensing.org/proj
+
+@item [5] @tab Milos Cimbalnik - Leos Mervart: Vyssi geodezie 1, 1997, Vydavatelstvi
+CVUT, Praha
 
 @end multitable
