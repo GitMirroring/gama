@@ -68,3 +68,19 @@ gama-g3-ellipsoid-xyz2blh-list.sh: $(G3_SRC)/gama-g3-ellipsoid-xyz2blh-list.in \
 	@$(do_subst)  < $(G3_SRC)/gama-g3-ellipsoid-xyz2blh-list.in \
 	        > gama-g3-ellipsoid-xyz2blh-list.sh
 	@chmod +x gama-g3-ellipsoid-xyz2blh-list.sh
+
+
+
+if BUILD_DEMO_G3_XYZBLH
+
+bin_PROGRAMS = demo-g3-xyz2blh demo-g3-blh2xyz
+
+demo_g3_xyz2blh_SOURCES  = demo-g3-xyz2blh.cpp
+demo_g3_xyz2blh_LDADD    = $(top_builddir)/lib/libgama.a
+demo_g3_xyz2blh_CPPFLAGS = -I $(top_srcdir)/lib
+
+demo_g3_blh2xyz_SOURCES  = demo-g3-blh2xyz.cpp
+demo_g3_blh2xyz_LDADD    = $(top_builddir)/lib/libgama.a
+demo_g3_blh2xyz_CPPFLAGS = -I $(top_srcdir)/lib
+
+endif
