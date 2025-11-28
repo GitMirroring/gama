@@ -3,3 +3,7 @@
 *.sh
 *.trs
 results
+gama-g3/demo-g3-blh2xyz
+gama-g3/demo-g3-xyz2blh
+gama-g3/src/check_adjustment
+gama-g3/src/geng3test
