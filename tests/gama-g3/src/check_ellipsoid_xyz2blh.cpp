@@ -2,13 +2,14 @@
 #include <iomanip>
 #include <algorithm>
 #include <cstdlib>
+#include <numbers>
 #include <gnu_gama/ellipsoid.h>
 
 using namespace std;
 using namespace GNU_gama;
 
-double PI = 3.14159265358979323846; // pi_v in <numbers> cince c++20
-inline double int2rad(int a) { return double(a)/180.0*PI; }
+// pi defined in <numbers> since c++20
+inline double int2rad(int a) { return double(a)/180.0*numbers::pi; }
 
 int main()
 {

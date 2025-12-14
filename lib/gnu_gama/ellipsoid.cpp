@@ -21,7 +21,6 @@
 
 #include <cmath>
 #include <gnu_gama/ellipsoids.h>
-#include <gnu_gama/radian.h>
 
 
 using namespace std;
