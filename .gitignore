@@ -16,6 +16,7 @@ lib/yaml-cpp
 *Build*
 *BUILD*
 #
+duplicity*
 data
 TAGS
 tmp

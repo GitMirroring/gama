@@ -31,6 +31,7 @@ to a single word/phrase, like ```cmake```, for example.
     - GNU Gama Home Page
     - Note
       - Builds on WSL
+- Install new releasse
 - Cmake - alternative build system
 - Optional features
     - YAML
@@ -445,6 +446,18 @@ of expat parser
 
     make check    # build all and run all tests including the extra tests
 
+## Install new release
+
+To install new release run
+
+    sudo make install
+
+Binaries will be install to ```/usr/local/bin```
+
+       cmp_xml_file     gama-g3                 gama-local-xml2sql
+       compare-xyz      gama-local              gama-local-xml2txt
+       demo-g3-blh2xyz  gama-local-deformation  gama-local-yaml2gkf
+       demo-g3-xyz2blh  gama-local-gkf2yaml     krumm2gama-local
 
 ## Cmake - alternative build system
 
